@@ -1,9 +1,9 @@
-### Self-made XAMP-like Server
+# Self-made XAMP-like Server
 
 Dieses Repo ist nur für Docker-unterstützende Systeme !!!
 
 
-# Schritte zur Installation:
+### Schritte zur Installation:
 
 1. Sicherstellen, dass man jegliche Form von Docker-Unterstütung installiert hat
 
@@ -14,7 +14,7 @@ Dieses Repo ist nur für Docker-unterstützende Systeme !!!
 4. Um den Server zu stoppen  <code>#docker compose stop/down</code> oder Ctrl+C
 
 
-# Konfigurationen:
+### Konfigurationen:
 1. Die Datenbank-Daten (Passwort, Datenbankname, Benutzername) sind im docker-compose.yml
 2. unter app/public sind die Web-Server files
 3. Der Port, mit der auf die Webseite zugegriffen wird kann in der docker-compose.yml geändert werden
