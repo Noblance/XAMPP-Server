@@ -19,9 +19,9 @@ Dieses Repo ist nur für Docker-unterstützende Systeme !!!
 2. unter app/public sind die Web-Server files
 3. Der Port, mit der auf die Webseite zugegriffen wird kann in der docker-compose.yml geändert werden
 4. um die Konsole beim Starten zu entfernen (was auch simplere Fehlermeldungen reduziert) in der PHP.Dockerfile folgendes eintragen:
-<code>
+```
 FROM php:fpm
 
 RUN docker-php-ext-install pdo pdo_mysql
-</code>
+```
 evt. danach noch ein <code>#docker compose build</code> durchführen und dann wieder <code>#docker compose up -d</code>
